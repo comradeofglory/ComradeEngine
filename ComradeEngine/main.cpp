@@ -1,17 +1,35 @@
 #include <SFML/Graphics.hpp>
+#include "Level.h"
+#include "GraphicsEngine.h"
 
 using namespace sf;
 
 int main()
 {
+    
 
-    RenderWindow window(VideoMode(400, 400), L"Новый проект", Style::Default);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    RenderWindow window(VideoMode(1280, 720), L"Engine", Style::Default);
 
     window.setVerticalSyncEnabled(true);
 
     CircleShape shape(100.f, 3);
     shape.setPosition(100, 100);
     shape.setFillColor(Color::Magenta);
+
+    
 
     while (window.isOpen())
     {
